@@ -12,7 +12,7 @@ path3 = "information.csv"
 
 def scrape_info():
     scraped_info = []
-    page = 40
+    page = 1
 
     while True:
         url = f"https://veli.store/category/tsignebi/mkhatvruli-literatura/tanamedrove/68/?page={page}"
